@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="flex h-full min-h-screen flex-col justify-between bg-lightGray">
-        <main className="flex flex-1 flex-col justify-evenly p-4 font-libreFranklin text-xl">
+        <main className="flex flex-1 flex-col justify-evenly p-10 font-libreFranklin text-xl">
           <Header />
           <Image />
           <Socials />
