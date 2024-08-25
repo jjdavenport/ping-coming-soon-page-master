@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <p>
+        <p className="flex justify-center gap-1 text-sm">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor

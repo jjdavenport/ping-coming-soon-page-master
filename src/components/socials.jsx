@@ -5,7 +5,7 @@ const Socials = () => {
   return (
     <>
       <section>
-        <ul>
+        <ul className="flex gap-2">
           {socials.map((i) => (
             <li key={i.img}>
               <a href="#">
