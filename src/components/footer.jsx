@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer className="text-center">
-        <p className="text-light inline text-sm font-light text-gray">
+        <p className="text-light inline text-xs font-light text-gray">
           Challenge by
           <a
             className="pl-1 text-veryDarkBlue"
