@@ -48,7 +48,7 @@ const Header = () => {
             <input
               value={email}
               placeholder={data.placeholder}
-              className={`${error ? "outline outline-lightRed" : "text-veryDarkBlue"} rounded-full px-4 py-2 outline outline-1 outline-paleBlue placeholder:text-paleBlue md:h-14 md:w-full md:px-8 md:py-4`}
+              className={`${error ? "outline outline-2 outline-lightRed" : "outline outline-1 outline-paleBlue"} rounded-full px-4 py-2 placeholder:text-paleBlue md:h-14 md:w-full md:px-8 md:py-4`}
               type="email"
               onChange={(e) => setEmail(e.target.value)}
             />
