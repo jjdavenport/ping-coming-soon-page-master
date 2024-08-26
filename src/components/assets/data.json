@@ -1,7 +1,8 @@
 {
   "logo": "./images/logo.svg",
-  "h1": " We are launching soon!",
-  "span": "Subscribe and get notified",
+  "h1": "We are launching",
+  "span": "soon!",
+  "subtitle": "Subscribe and get notified",
   "placeholder": "your email address...",
   "button": "Notify Me",
   "image": "./images/illustration-dashboard.png",

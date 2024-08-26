@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon__button:hover .icon__path:hover {
+  fill: hsl(223, 100%, 88%);
+}

@@ -6,12 +6,12 @@ import Image from "./components/image";
 function App() {
   return (
     <>
-      <div className="flex h-full min-h-screen flex-col justify-between bg-lightGray">
-        <main className="flex flex-1 flex-col justify-evenly p-10 font-libreFranklin text-xl">
+      <div className="bg-lightGray flex h-full min-h-screen flex-col justify-between gap-1 md:items-center">
+        <main className="flex flex-1 flex-col justify-evenly gap-1 px-4 font-libreFranklin text-xl md:max-w-screen-md md:px-10 md:pt-10">
           <Header />
           <Image />
-          <Socials />
         </main>
+        <Socials />
         <Footer />
       </div>
     </>
